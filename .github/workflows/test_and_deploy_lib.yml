@@ -35,7 +35,7 @@ jobs:
 
       - name: Run tests for library
         run: |
-          pytest tests/
+          pytest src/test/
   
   deploy-lib:
     name: 📦 Publish Hero Lib to PyPI
