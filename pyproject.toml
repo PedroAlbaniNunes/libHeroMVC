@@ -1,6 +1,6 @@
 [project]
 name = "libHeroMVC"
-version = "0.1.15" 
+version = "0.1.16" 
 authors = [
   { name = "Pedro", email = "albanipedroprofissional@gmail.com" },
 ]
