@@ -58,7 +58,7 @@ jobs:
 
       - name: Build library
         run: |
-          python -m build ./lib
+          python -m build 
       
       - name: Publish library to PyPI
         env:
