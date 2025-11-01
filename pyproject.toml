@@ -1,3 +1,22 @@
-[build-system]
-requires = ["setuptools", "wheel"]
-build-backend = "setuptools.build_meta"
+[project]
+name = "libHeroMVC"
+version = "0.1.10" 
+authors = [
+  { name = "Pedro", email = "albanipedroprofissional@gmail.com" },
+]
+description = "Biblioteca de criação e leitura de heróis e times de heróis."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License", 
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+    "sqlmodel"
+]
+
+[project.urls]
+Homepage = "https://github.com/PedroAlbaniNunes/libHeroMVC"
+Issues = "https://github.com/PedroAlbaniNunes/libHeroMVC/issues"
